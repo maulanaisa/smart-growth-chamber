@@ -1,10 +1,38 @@
 # SMART GROWTH CHAMBER
 Source code of Smart Plant Growth Chamber
 
+- Overview of system
+
+![system_overview](https://github.com/maulanaisa/smart-growth-chamber/blob/main/system_overvies.png)
+
+SGC (all three microcontrollers) and client-computer communicate with each other using MQTT protocol. Data saved in server database using HTTP post request protocol. HTTP post also used to save images to server computer from client. Types of data based on line color :
+
+- Blue    : actuator status, sensor read, control mode (auto/manual), setpoint
+  
+- Purple  : sensor read, setpoint, control mode control mode (auto/manual)
+  
+- Orange  : sensor read, setpoint, control mode control mode (auto/manual)
+  
+- Green   : image filename
+  
+- Red     : image file (.png)
+
+## Server computer
+
+Server computer used in this project run on Goole Cloud Platform using Ubuntu 18.04 LTS. Services running on server including MQTT broker and Apache web server & MySQL.
+
+MQTT broker used in this project : Mosquitto MQTT v3.1
+
+Apache web server and MySQL installed using XAMPP package
+
+## Client computer
+
+Raspberry Pi 3B+ used as client computer in this poject. System runs on Raspberry Pi OS.
+
 ## ESP32 Folder
 Contain source codes written in arduino file format (.ino). Each source code compiled and uploaded into ESP32 Microcontroller. Written using Arduino IDE.
 ### Schematic
-Schematic of hardware installed in Smart Growth Chamber. System runs on 3 ESP32 microcontrollers. 
+Schematic of hardware installed in Smart Growth Chamber. System runs on 3 ESP32 microcontrollers.
 
 ESP-A controls all actuator (heater, cooler, humidifier, minipump, fan), ESP-B is connected to all sensors but ambient temperature sensor and ESP-C controls LCD Touchscreen and reads ambient temperature sensor.
 
@@ -85,7 +113,7 @@ Contain source code written in php. Each file acts as server-side script to rece
 
 
 ## Client-computer folder
-Contain souce code written in python. Python scripts run as client-side program to send data/images to server.
+Contain souce code written in python v3.9.2. Python scripts run as client-side program to send data/images to server.
 
 ### camera.py
 
