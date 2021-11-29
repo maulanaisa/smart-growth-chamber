@@ -3,7 +3,7 @@ Source code of Smart Plant Growth Chamber
 
 - Overview of system
 
-![system_overview](https://github.com/maulanaisa/smart-growth-chamber/blob/main/system_overvies.png)
+![system_overview](https://github.com/maulanaisa/smart-growth-chamber/blob/main/system_overview.png)
 
 SGC (all three microcontrollers) and client-computer communicate with each other using MQTT protocol. Data saved in server database using HTTP post request protocol. HTTP post also used to save images to server computer from client. Types of data based on line color :
 
