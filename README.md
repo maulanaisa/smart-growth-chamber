@@ -45,11 +45,11 @@ ESP-A controls all actuator (heater, cooler, humidifier, minipump, fan), ESP-B i
 
 - ESP-A Schematic
 
-![ESP-A](https://github.com/maulanaisa/smart-growth-chamber/blob/main/ESP32/ESP-A.png)
+![ESP-A](https://github.com/maulanaisa/smart-growth-chamber/blob/main/ESP-A.png)
 
 - ESP-B Schematic
 
-![ESP-B](https://github.com/maulanaisa/smart-growth-chamber/blob/main/ESP32/ESP-B.png)
+![ESP-B](https://github.com/maulanaisa/smart-growth-chamber/blob/main/ESP-B.png)
 
 //-------------------------------------------------------------------------------------------------//
 
