@@ -8,14 +8,21 @@ Source code of Smart Plant Growth Chamber
 SGC (all three microcontrollers) and client-computer communicate with each other using MQTT protocol. Data saved in server database using HTTP post request protocol. HTTP post also used to save images to server computer from client. Types of data based on line color :
 
 - Blue    : actuator status, sensor read, control mode (auto/manual), setpoint
-  
 - Purple  : sensor read, setpoint, control mode control mode (auto/manual)
-  
 - Orange  : sensor read, setpoint, control mode control mode (auto/manual)
-  
 - Green   : image filename
-  
 - Red     : image file (.png)
+
+Hardware used :
+
+- ESP32 Devkit V1 30 Pins
+- Robotdyn AC dimmer module 4 Channel 400V 10A
+- 4 Channel Relay
+- SHT31 Temperature & Humidity Sensor
+- BH1750 Light Sensor
+- Type-K Thermocouple with MAX6675 module
+- 12V 30A Power Supply
+- Nextion 7" Intelligent Series
 
 ## Server computer
 
