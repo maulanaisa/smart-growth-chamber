@@ -147,3 +147,10 @@ Run script to connect client-computer as mqtt client and fetch data. Data then s
 
 Depedencies can be installed using requirements_sql.txt.
 
+### sgc.sh
+
+bash script to run both python files
+
+### sgc_terminate.sh
+
+bash script to kill both python file processes
