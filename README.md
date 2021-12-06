@@ -24,6 +24,24 @@ Hardware used :
 - 12V 30A Power Supply
 - Nextion 7" Intelligent Series
 
+MQTT topic used :
+
+- esp32/heater (Heater)
+- esp32/cooler (Compressor)
+- esp32/humidifier (Humidifier)
+- esp32/led (LED)
+- esp32/fan (Evaporator Fan)
+- esp32/pump (Water Minipump)
+- esp32/mode (Control Mode)
+- esp32/setpoint_temperature (Setpoint for Temperature)
+- esp32/setpoint_humidity (Setpoint for Humidity)
+- esp32/setpoint_light (Setpoint for Light Intensity)
+- esp32/ledsens (Light Sensor)
+- esp32/tempsens (Temperature Sensor)
+- esp32/humsens (Humidity Sensor)
+- esp32/watersens (Water Level Sensor)
+- esp32/tempambientsens (Ambient Temperature Sensor)
+
 ## Server computer
 
 Server computer used in this project run on Goole Cloud Platform using Ubuntu 18.04 LTS. Services running on server including MQTT broker and Apache web server & MySQL.
