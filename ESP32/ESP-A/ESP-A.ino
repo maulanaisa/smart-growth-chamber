@@ -124,7 +124,7 @@ void tempandhumid(){  //Function to control temperature and humidity
             heater_status = 1;
             compressor_status = 0;
             humidifier_status = 1;
-            fan_evap_pwm_value = 73;
+            fan_evap_pwm_value = 68;
           }else{
             if((currentTime2 - previousTimeSwitching > timeIntervalSwitching) && (temp_sensor > temp_setpoint)){ //check if it's time to switch into humidity control mode and
                temp_or_humidity_turn = 0;//switch to humidity control mode                                      //if temperature is below setpoint (we already know it's
@@ -154,7 +154,7 @@ void tempandhumid(){  //Function to control temperature and humidity
           compressor_status = 0;
         }else{
           if(currentTime2 - previousTimeSwitching > timeIntervalSwitching){ //check if it's time to switch into temp control mode
-               temp_or_humidity_turn = 1;//switch to humidity control mode
+               temp_or_humidity_turn = 1;//switch to temperature control mode
                previousTimeSwitching = currentTime2;
             }
         }   
