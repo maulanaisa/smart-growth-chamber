@@ -82,7 +82,7 @@ ESP-A controls all actuator (heater, cooler, humidifier, minipump, fan), ESP-B i
 ```
 #### Highlighted pin
 
-Heater (18), Compressor (22), Zero Cross for AC Dimmer (19), Evaporator Fan (21), Humidifier (14), Humidifier Fan (32), LED (25,26,27), Minipump (12).
+Heater (18), Compressor (15), Zero Cross for AC Dimmer (19), Evaporator Fan (21), Humidifier (14), Humidifier Fan (32), LED (25,26,27), Minipump (12).
 
 //------------------------------------------------------------------------------------------------//
 
