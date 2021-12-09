@@ -52,7 +52,7 @@ Apache web server and MySQL installed using XAMPP package
 
 ## Client computer
 
-Raspberry Pi 3B+ used as client computer in this poject. System runs on Raspberry Pi OS.
+Raspberry Pi 3B+ used as client computer in this project. System runs on Raspberry Pi OS.
 
 ## ESP32 Folder
 Contain source codes written in arduino file format (.ino). Each source code compiled and uploaded into ESP32 Microcontroller. Written using Arduino IDE.
