@@ -79,4 +79,4 @@ if __name__ == '__main__':
     while True :
         flag_sql = sendData()
         print("status to SQL : {}".format(flag_sql))
-        time.sleep(30)
+        time.sleep(120)
