@@ -84,6 +84,10 @@ ESP-A controls all actuator (heater, cooler, humidifier, minipump, fan), ESP-B i
 
 Heater (18), Compressor (15), Zero Cross for AC Dimmer (19), Evaporator Fan (21), Humidifier (14), Humidifier Fan (32), LED (25,26,27), Minipump (12).
 
+### ESP-A-2
+
+Alternative algorithm with more simple control.
+
 //------------------------------------------------------------------------------------------------//
 
 ### ESP-B
@@ -152,8 +156,6 @@ When running, script is sending images to server taken from camera connected to 
 - time
 - os
 
-Depedencies can be installed using requirements_camera.txt.
-
 ### sql.py
 
 Run script to connect client-computer as mqtt client and fetch data. Data then sent to server using HTTP post request.
@@ -162,8 +164,6 @@ Run script to connect client-computer as mqtt client and fetch data. Data then s
 - paho.mqtt.client
 - requests
 - time
-
-Depedencies can be installed using requirements_sql.txt.
 
 ### sgc.sh
 
