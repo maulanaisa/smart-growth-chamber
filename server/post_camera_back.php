@@ -30,7 +30,7 @@ if ($conn->connect_error) {
  die("Connection failed: " . $conn->connect_error);
 }
 
-//take filename of picture from databas and delete the file
+//take filename of picture from database and delete the file
 $sqlAct = "SELECT id, top_camera_filename, back_camera_filename, side_camera_filename, reading_time FROM camera ORDER BY id DESC";
 if ($result = $conn->query($sqlAct)) {
 if($result->num_rows > $max_pictures_saved-1){
