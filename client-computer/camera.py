@@ -164,7 +164,7 @@ if __name__ == '__main__':
         #Delete recent file from computer
         deleteFiles()
         
-        time.sleep(300)
+        time.sleep(3600)
         
     #pygame.quit()
     #sys.exit(0)
