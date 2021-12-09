@@ -199,7 +199,7 @@ void tempandhumid(){  //Function to control temperature and humidity
 
 //Time to control led
 unsigned long previousTimeLedControl = millis();
-long timeIntervalLedControl = 100;
+long timeIntervalLedControl = 150;
 
 //LED Control
 void ledcontrol(){
